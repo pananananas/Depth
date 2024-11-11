@@ -12,4 +12,6 @@ dependencies = [
   "pillow_heif",
   "matplotlib",
   "ipykernel",
+  "transformers>=4.46.2",
+  "requests>=2.32.3",
 ]
