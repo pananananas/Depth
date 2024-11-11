@@ -1,0 +1,15 @@
+[project]
+name = "depth"
+version = "0.1.0"
+description = "Comparison of monocular depth estimation methods"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "timm",
+  "numpy<2",
+  "pillow_heif",
+  "matplotlib",
+  "ipykernel",
+]
